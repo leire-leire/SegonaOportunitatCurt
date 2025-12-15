@@ -6,14 +6,6 @@ La web se plantea como una experiencia one-page inspirada en un ascensor, donde 
 
 ---
 
-## 🛠️ Tecnologías utilizadas
-- HTML5
-- CSS3
-- JavaScript
-- GitHub (control de versiones y trabajo colaborativo)
-
----
-
 ## 📁 Estructura del proyecto
 ├──index.html # Página principal (ascensor)
 ├── provisional.html # Página provisional / crowdfunding
