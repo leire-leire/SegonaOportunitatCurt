@@ -11,8 +11,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-
-      font-family: Arial, sans-serif;
+      font-family:'Roboto',Arial, Helvetica, sans-serif;
       color: #fff;
       text-align: center;
     }
