@@ -1,0 +1,92 @@
+
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+
+    body {
+      background-image: url("../img/botonera.webp"); /* Imagen de fondo */
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      font-family: Arial, sans-serif;
+      color: #fff;
+      text-align: center;
+    }
+
+    /* Capa oscura para legibilidad */
+    .overlay {
+      background: rgba(0, 0, 0, 0.55);
+      padding: 50px;
+      border-radius: 10px;
+      max-width: 600px;
+    }
+
+    .overlay h1 {
+      margin-top: 0;
+      font-size: 2.5rem;
+    }
+
+    .overlay p {
+      font-size: 1.1rem;
+      margin: 20px 0 30px;
+    }
+
+    .overlay a {
+      display: inline-block;
+      padding: 15px 30px;
+      background: #c95f21;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 6px;
+      transition: background 0.3s;
+    }
+
+    .overlay a:hover {
+      background: #c74900;
+    }
+
+    /* Responsivo en móviles */
+    @media (max-width: 480px) {
+      .overlay {
+        padding: 30px;
+      }
+      .overlay h1 {
+        font-size: 2rem;
+      }
+      .overlay p {
+        font-size: 1rem;
+      }
+      .overlay a {
+        padding: 12px 25px;
+        font-size: 0.95rem;
+      }
+    }
+    
+.dial-img {
+  position: relative;
+  width: 360px;
+  margin: 0 auto;
+}
+
+.dial-base {
+  width: 100%;
+  display: block;
+}
+
+/* Aguja */
+.needle {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  width: 4px;
+  height: 140px;
+  background: #a53737;
+  transform-origin: 50% 90%;
+  transform: rotate(-90deg);
+  transition: transform 0.8s ease;
+}
